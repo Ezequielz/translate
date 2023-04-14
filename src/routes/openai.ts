@@ -25,7 +25,7 @@ interface Props{
 }
 
 
-router.post('/', async( req, res) =>{
+router.post('/translate', async( req, res) =>{
 
     
    const { fromLanguage, toLanguage, text }: Props = req.body

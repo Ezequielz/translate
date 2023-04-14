@@ -3,7 +3,7 @@ import cors from 'cors'
 require('dotenv').config();
 
 
-import openaiRouter from './routes/openai'
+import openaiRouter from './src/routes/openai'
 
 const app = express()
 app.use(express.json())
